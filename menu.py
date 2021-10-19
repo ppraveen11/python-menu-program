@@ -14,7 +14,7 @@ choice = int(input("enter your choice: "))
 
 
 if choice == 1 :
-    os.system("espeak-ng 'hello  this is parthanaboina praveen'")
+    os.system("espeak-ng 'hello  everyone'")
 elif choice == 2 :
     os.system("espeak-ng 'today date is' -s 100 -p 50")
     os.system("date | espeak-ng -s 100 -p 50")
